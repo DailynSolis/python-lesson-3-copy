@@ -1,0 +1,18 @@
+{
+  "name": "Python EMSI 2026",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "editor.fontSize": 16,
+        "terminal.integrated.fontSize": 16
+      }
+    }
+  },
+  "postCreateCommand": "pip install --upgrade pip"
+}
